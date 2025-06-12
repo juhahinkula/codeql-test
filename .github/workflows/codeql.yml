@@ -19,7 +19,7 @@ jobs:
       fail-fast: false
       matrix:
         # Analyzes Java code directly from the codebase without a build
-        language: [ 'java-kotlin' ]  
+        language: [ 'java' ]  
 
     steps:
       - name: Checkout repository
